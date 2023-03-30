@@ -10,6 +10,7 @@
 .settings
 .springBeans
 .sts4-cache
+.gitignore
 
 ### IntelliJ IDEA ###
 .idea
@@ -24,3 +25,8 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/.circleci/
+/.gradle/
+/.idea
+/gradle/
+/specs/
