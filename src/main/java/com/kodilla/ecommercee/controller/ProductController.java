@@ -24,11 +24,11 @@ public class ProductController {
     }
 
     @PostMapping
-    public void addProduct(@RequestBody ProductDto productDto) {
+    public void createProduct(@RequestBody ProductDto productDto) {
 
     }
 
-    @PutMapping("/{id}")
+    @PutMapping
     public ProductDto updateProduct(@RequestBody ProductDto productDto) {
         return new ProductDto(1L, "Coat", "Black and White", new BigDecimal(1300), 1L);
     }
