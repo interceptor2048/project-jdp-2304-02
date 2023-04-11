@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @AllArgsConstructor
 @Setter
@@ -12,6 +14,4 @@ public class UserDto {
     private String username;
     private String status;
     private int userKey;
-    private int cartId;
-    private int ordersId;
 }
